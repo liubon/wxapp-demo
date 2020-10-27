@@ -1,0 +1,27 @@
+{
+  "pages": [
+		"pages/index/index",
+		"pages/index-with-data/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#000000",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "组件"
+    }, {
+      "pagePath": "pages/index-with-data/index",
+      "text": "接口"
+    }]
+  }
+}
